@@ -1,0 +1,356 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+}
+
+div.navbar {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600; 
+}
+
+hr {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}
+
+a:hover { 
+  color: #672146 !important;
+}
+
+.nav.navbar-nav.ml-auto li a {
+  color:white;
+  font-size: 1.2em;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+h4.card-title {
+  color: black;
+}
+
+.card a {
+  color: rgb(92, 92, 92);
+}
+
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.fas.fa-tshirt {
+  color: #672146;
+}
+
+#dropdown {
+  color: black;
+}
+
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav li {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/team banner edited 1.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  width: 100%;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.2);
+}
+
+.hero-text h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.2em;
+  letter-spacing: 0.25em;
+}
+
+.disabledButton {
+  pointer-events: none;
+}
+
+.game_list
+{
+	margin-top: 30px;
+}
+.game_list ul li
+{
+	height: 110px;
+	padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 211, 211);
+}
+.game_list ul li:not(:last-of-type)
+{
+	margin-bottom: 3px;
+}
+.game_list ul li > div:first-of-type,
+.game_list ul li > div:last-of-type
+{
+	width: 37%;
+}
+.game_list ul li > div:nth-child(2)
+{
+	width: 26%;
+}
+.game_list ul li > div:first-of-type .team_name
+{
+	margin-left: 15px;
+}
+.game_list ul li > div:last-of-type .team_name
+{
+	margin-right: 15px;
+}
+.team_logo
+{
+	width: 65px;
+	height: 55px;
+}
+.team_logo img
+{
+	max-height: 90%;
+}
+.team_name 
+{
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.game_list ul li > div:nth-child(2) > div:first-child
+{
+	font-size: .8em;
+	font-weight: 500;
+	color: #777b95;
+}
+.game_list ul li > div:nth-child(2) > div:nth-child(2)
+{
+	font-size: 1.8em;
+	line-height: 0.75;
+	font-weight: 500;
+	margin-top: 16px;
+}
+.game_list ul li > div:nth-child(2) > div:nth-child(3)
+{
+	font-size: .8em;
+	font-weight: 500;
+	color: #777b95;
+	margin-top: 17px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.search-solid {
+  fill:black;
+}
+#myInput {
+  background-image: url('/images/search-solid.svg'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+.wrapper {
+  position: relative;
+  padding: 4em 0 10em 0;
+}
+
+  .wrapper .title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    font-size: 0.9em;
+    width: 25em;
+    height: 3.25em;
+    top: -3.25em;
+    line-height: 3.25em;
+    margin-bottom: -3.25em;
+    margin-left: -12.5em;
+    padding-top: 0.5em;
+  }
+
+    .wrapper .title:before {
+      content: '';
+      position: absolute;
+      bottom: -38px;
+      left: -35px;
+      width: 35px;
+      height: 38px;
+      background: url("../../images/shadow.png");
+    }
+
+    .wrapper .title:after {
+      -moz-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+      transform: scaleX(-1);
+      content: '';
+      position: absolute;
+      bottom: -38px;
+      right: -35px;
+      width: 35px;
+      height: 38px;
+      background: url("../../images/shadow.png");
+    }
+.wrapper.style1 {
+			background: #672146 url("../../images/overlay.png");;
+			color: #fff;
+		}
+
+			.wrapper.style1 .title {
+				background: #672146 url("../../images/overlay.png");
+				color: #fff;
+			}
+
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 strong, .wrapper.style1 b {
+				color: #fff;
+			}
+      
+      .wrapper.style1 h6 {
+        color: #d3d3d3;
+        letter-spacing: .1rem;
+      }
+      #intro {
+        padding-bottom: 14em;
+      }
+
+.subpage {
+  padding-top: 5em;
+}
+
+.subpage h3 {
+  color:#672146;
+  font-weight: 700;
+  margin: 20px auto;
+  font-size: 1.6em;
+}
+
+.subpageTitle {
+  text-align: center;
+  padding-top: .5em;
+  font-weight: 600;
+}
+
+.responsiveCal {
+  position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+  }
+     
+.responsiveCal iframe { 
+  position: absolute; top:0; left: 0; width: 100%; height: 95%;
+  }
+
+  @media (max-width: 992px) {
+    .navbar-collapse
+      {
+          background-color: #343a40;
+      }
+  }
+
+  /* Small */
+
+	@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				line-height: 1.5em;
+				font-size: 11pt;
+				letter-spacing: 0;
+			}
+
+			h2, h3, h4, h5 {
+				font-size: 1.3em;
+				letter-spacing: 0.05em;
+				margin: 0 0 1em 0;
+      }
+
+      h6 {
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+				margin: 0 0 1em 0;
+      }
+
+      hr {
+				margin: 1em 0 1em 0;
+      }
+      
+      .subpage {
+        padding-top: 7em;
+      }
+
+      .team_logo {
+	      width: 35px;
+	      height: 30px;
+      }
+
+      .team_name {
+	      font-size: .9em;
+	      font-weight: 500;
+      }
+
+      .game_list ul li > div:nth-child(2) > div:first-child {
+	        font-size: .6em;
+	        font-weight: 500;
+	        color: #777b95;
+      }
+      .game_list ul li > div:nth-child(2) > div:nth-child(2) {
+	      font-size: 1.5em;
+	      font-weight: 500;
+	      margin-top: 8px;
+      }
+      .game_list ul li > div:nth-child(2) > div:nth-child(3) {
+	      font-size: .6em;
+	      font-weight: 500;
+	      color: #777b95;
+	      margin-top: 8px;
+      }
+
+      .game_list ul li > div:first-of-type .team_name
+      {
+	      margin-left: 5px;
+      }
+      .game_list ul li > div:last-of-type .team_name
+      {
+	      margin-right: 5px;
+      }
+    }
